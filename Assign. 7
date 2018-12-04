@@ -1,0 +1,34 @@
+Question 1
+Git hub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage project and build software alongside 31 Million developers.
+Question 2
+User name zmdar and email hellwell1@gmail.com
+Question 3
+Repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets and data sets- anything your project needs.
+Question 4-Done
+Question 5
+b=int(input('Enter a number: '))
+if (b>=5)and(b<=10):
+    print('True')
+else:
+    print('False')
+
+Question 6    
+Python tool kit: It is an interactive enviroment for python.It was designed to provide a python based environment similiar to Matlab for scientists and engineers, when used togather
+                 with the numpy, scipy and matplotlib python packages.It can also be used for general purpose interactive python environment, especially for interactive gui programing.
+                 It is built around a consol window and simple python source editor and tool plugin system, so that extra features and supportfor python packages can easily be added.
+Question 7
+def fib(n):    # write Fibonacci series up to n
+    a, b = 0, 1
+    while b < n:
+        print b,
+        a, b = b, a+b
+
+def fib2(n):   # return Fibonacci series up to n
+    result = []
+    a, b = 0, 1
+    while b < n:
+        result.append(b)
+        a, b = b, a+b
+    return result
+               
+
