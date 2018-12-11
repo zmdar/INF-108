@@ -1,0 +1,262 @@
+from graphics import *
+
+#make a drawing window
+#win=graphics.GraphWin()
+win.close()
+win=graphics.GraphWin("My Window", 800, 700)
+
+Point1 = graphics.Point(350, 150)
+Point1.draw(win)
+
+CircleR = graphics.Circle(Point1, 30)
+CircleR.setFill('Red')
+CircleR.draw(win)
+
+Point2 = graphics.Point(320, 80)
+Point2.draw(win)
+
+CircleG = graphics.Circle(Point2, 20)
+CircleG.setFill('Green')
+CircleG.draw(win)
+
+Point3 = graphics.Point(150, 150)
+Point3.draw(win)
+
+Point4 = graphics.Point(310, 150)
+Point4.draw(win)
+
+Line1=graphics.Line(Point3, Point4)
+Line1.setWidth(8)
+Line1.setFill('black')
+Line1.draw(win)
+
+Point5 = graphics.Point(320, 240)
+Point5.draw(win)
+
+CircleBS = graphics.Circle(Point5, 40)
+CircleBS.setFill('Blue')
+CircleBS.draw(win)
+
+Point6 = graphics.Point(320, 280)
+Point6.draw(win)
+
+Point7 = graphics.Point(320, 380)
+Point7.draw(win)
+
+Line2=graphics.Line(Point6, Point7)
+Line2.setWidth(9)
+Line2.setFill('Blue')
+Line2.draw(win)
+
+Point8 = graphics.Point(320, 430)
+Point8.draw(win)
+
+CircleBB = graphics.Circle(Point8, 50)
+CircleBB.setFill('Blue')
+CircleBB.draw(win)
+
+Point9 = graphics.Point(280, 330)
+Point9.draw(win)
+
+CircleB = graphics.Circle(Point9, 25)
+CircleB.setFill('Black')
+CircleB.draw(win)
+
+
+#Square
+Point12 = Point(240, 460)
+Point12.draw(win)
+
+Point13 = Point(240, 530)
+Point13.draw(win)
+
+Point14 = Point(200, 495)
+Point14.draw(win)
+
+Point15 = Point(280, 495)
+Point15.draw(win)
+
+Line3=Line(Point12, Point14)
+Line3.setWidth(7)
+Line3.setFill('Black')
+Line3.draw(win)
+
+Line4=Line(Point14, Point13)
+Line4.setWidth(7)
+Line4.setFill('Black')
+Line4.draw(win)
+
+Line5=Line(Point13, Point15)
+Line5.setWidth(7)
+Line5.setFill('Black')
+Line5.draw(win)
+
+Line6=Line(Point15, Point12)
+Line6.setWidth(7)
+Line6.setFill('Black')
+Line6.draw(win)
+
+#Rectangle with different method
+Point10 = graphics.Point(140, 550)
+Point11 = graphics.Point(180, 450)
+myRect1 = Rectangle(Point11, Point10)
+myRect1.setFill('Lightgreen')
+myRect1.draw(win)
+
+#Triangle
+#oint16 = graphics.Point(300, 380)
+#oint17 = graphics.Point(280, 480)
+#oint18 = graphics.Point(380, 460)
+#yTri1= Triangle(Point16, Point17, Point18)
+#yTri1.setFill('Pink')
+#yTri1.draw(win)
+
+#Triangle
+
+myTri1 = Polygon(Point(430,390),Point(380,520),Point(540,480))
+myTri1.setFill(color_rgb(255, 105, 180))
+myTri1.setWidth(7)
+myTri1.draw(win)
+
+#pumpkin try
+Point16 = Point(120, 300)
+Point16.draw(win)
+
+CircleP1= graphics.Circle(Point16, 100)
+CircleP1.setFill('DarkOrange')
+CircleP1.setWidth(0)
+CircleP1.draw(win)
+
+Point17 = Point(120, 320)
+Point17.draw(win)
+
+CirclePB= graphics.Circle(Point17, 65)
+CirclePB.setFill('Black')
+CirclePB.draw(win)
+
+Point18 = Point(120, 300)
+Point18.draw(win)
+
+CirclePBB= graphics.Circle(Point18, 65)
+CirclePBB.setFill('DarkOrange')
+CirclePBB.setWidth(0)
+CirclePBB.draw(win)
+
+myTri2 = Polygon(Point(180,260),Point(140,260),Point(160,280))
+myTri2.setFill(color_rgb(0, 0, 0))
+myTri2.setWidth(7)
+myTri2.draw(win)
+
+myTri3 = Polygon(Point(100,260),Point(60,260),Point(80,280))
+myTri3.setFill(color_rgb(0, 0, 0))
+myTri3.setWidth(7)
+myTri3.draw(win)
+
+Point19 = Point(100,190)
+Point19.draw(win)
+
+Point20 = Point(130,165)
+Point20.draw(win)
+
+Point21 = Point(155,165)
+Point21.draw(win)
+
+Point22 = Point(110, 190)
+Point22.draw(win)
+
+Line7=Line(Point19, Point20)
+Line7.setWidth(12)
+Line7.setFill('DarkOrange')
+Line7.draw(win)
+
+Line8=Line(Point20, Point21)
+Line8.setWidth(11)
+Line8.setFill('DarkOrange')
+Line8.draw(win)
+
+Line9=Line(Point21, Point22)
+Line9.setWidth(12)
+Line9.setFill('DarkOrange')
+Line9.draw(win)
+
+Line10=Line(Point22, Point19)
+Line10.setWidth(7)
+Line10.setFill('DarkOrange')
+Line10.draw(win)
+
+#pumpkin2
+Point23=Point(600,200)
+Point23.draw(win)
+
+CirclePP= graphics.Circle(Point23, 100)
+CirclePP.setFill('DarkOrange')
+CirclePP.setWidth(0)
+CirclePP.draw(win)
+
+#forleft eye
+Point24 = Point(565,180)
+Point24.draw(win)
+
+CirclePPe=graphics.Circle(Point24,20)
+CirclePPe.setFill('Black')
+CirclePPe.draw(win)
+
+Point25 = Point(572,180)
+Point25.draw(win)
+
+CirclePPee=graphics.Circle(Point25,9)
+CirclePPee.setFill('DarkOrange')
+CirclePPee.draw(win)
+
+#for right eye
+Point26 = Point(640,170)
+Point26.draw(win)
+
+CirclePPer=graphics.Circle(Point26,27)
+CirclePPer.setFill('Black')
+CirclePPer.draw(win)
+
+Point27= Point(630,170)
+Point27.draw(win)
+
+CirclePPei=graphics.Circle(Point27,9)
+CirclePPei.setFill('DarkOrange')
+CirclePPei.draw(win)
+
+Point27= Point(575,90)
+Point27.draw(win)
+
+Point28= Point(600,70)
+Point28.draw(win)
+
+Point29= Point(620,70)
+Point29.draw(win)
+
+Point30= Point(590,90)
+Point30.draw(win)
+
+Line11=Line(Point27, Point28)
+Line11.setWidth(12)
+Line11.setFill('DarkOrange')
+Line11.draw(win)
+
+Line12=Line(Point28, Point29)
+Line12.setWidth(11)
+Line12.setFill('DarkOrange')
+Line12.draw(win)
+
+Line13=Line(Point29, Point30)
+Line13.setWidth(12)
+Line13.setFill('DarkOrange')
+Line13.draw(win)
+
+Line14=Line(Point30, Point27)
+Line14.setWidth(7)
+Line14.setFill('DarkOrange')
+Line14.draw(win)
+
+
+
+
+
+CircleR or Line 1-14 are the refrences for the location for my self, it was just for me u can do it according to your comfort.
