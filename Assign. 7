@@ -5,30 +5,37 @@ User name zmdar and email hellwell1@gmail.com
 Question 3
 Repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets and data sets- anything your project needs.
 Question 4-Done
+
 Question 5
-b=int(input('Enter a number: '))
-if (b>=5)and(b<=10):
-    print('True')
-else:
-    print('False')
+
+def convertToinches(a):
+    print(a)
+    b=a.split('\'')
+    feet=int(b[0])
+    print(b)
+    print('b[1]=',b[1])
+    print('now split b[1])')
+    c=b[1].split('\"')
+    print(c)
+    inches=feet*12+int(c[0]);
+    return inches
 
 Question 6    
 Python tool kit: It is an interactive enviroment for python.It was designed to provide a python based environment similiar to Matlab for scientists and engineers, when used togather
                  with the numpy, scipy and matplotlib python packages.It can also be used for general purpose interactive python environment, especially for interactive gui programing.
                  It is built around a consol window and simple python source editor and tool plugin system, so that extra features and supportfor python packages can easily be added.
 Question 7
-def fib(n):    # write Fibonacci series up to n
-    a, b = 0, 1
-    while b < n:
-        print b,
-        a, b = b, a+b
+Example usage of 'print_container', a tool to print 
+any layout in a non-interactive way.
 
-def fib2(n):   # return Fibonacci series up to n
-    result = []
-    a, b = 0, 1
-    while b < n:
-        result.append(b)
-        a, b = b, a+b
-    return result
+from__future__import unicode_literals, print_function
+from prompt_toolkit.shortcuts import print_container
+from promt_toolkit.widgets import Frame, TextArea
+    Print_container(
+        Frame(
+             TextArea(text='Hello World!\n')
+             TextArea(text='Hello world!\n')
+             title='Stage: Parse',
+             ))
                
 
