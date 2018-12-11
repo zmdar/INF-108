@@ -34,7 +34,7 @@ from promt_toolkit.widgets import Frame, TextArea
     Print_container(
         Frame(
              TextArea(text='Hello World!\n')
-             TextArea(text='Hello world!\n')
+             TextArea(text='Hello World!\n')
              title='Stage: Parse',
              ))
                
